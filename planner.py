@@ -3,7 +3,7 @@ import heapq
 
 #---------------------------------
 def parse_world(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-16') as f:
         lines = [line.strip() for line in f.readlines() if line.strip()]
 
     cols = int(lines[0])
