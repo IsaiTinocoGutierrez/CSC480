@@ -11,3 +11,5 @@ dirty cells, and saves it to sample-5x7.txt.
 - Examples:
 - python planner.py depth-first sample-5x7.txt
 - python planner.py uniform-cost sample-5x7.txt
+- Your output should be a sequence of one-letter actions (one per line), followed by the
+number of nodes generated and expanded during the search.
